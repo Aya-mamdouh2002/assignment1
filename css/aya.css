@@ -1,0 +1,122 @@
+ p.a1{
+text-align: center;
+font-size: 40px;
+}
+div.b1{
+    background-color: grey;
+   margin: 1%;
+    width: 25%;
+
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+    
+   
+}
+p.a2{
+    background-color: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    width:30%;
+    margin-top: 0;
+    position:absolute;
+    top: 0;
+    right: 0;
+    
+
+}
+
+div.b2{
+    background-color:  grey;
+    margin: 1%; 
+    width: 25%;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+    
+
+}
+p.a3{
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    width: 20%; 
+    margin-top: 0;
+    position:absolute;
+    top: 0;
+    right: 0;
+
+   
+
+}
+
+div.b3{
+    background-color: grey;
+    margin:1%; 
+    width:25%;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+    
+}
+p.a4{
+    background-color: sandybrown;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    width: 20%;
+    margin-top: 0;
+    position:absolute;
+    top: 0;
+    right: 0;
+
+}
+
+@media( min-width:992px){
+    div.b1, div.b2, div.b3 
+    {
+        float: left;
+    }
+    div.b1{
+        width: 31%-40;
+    }
+    div.b2{
+        width: 31%-40; 
+    }
+    div.b3{
+        width: 31%-40; 
+    }
+}
+@media( min-width:768px) and (max-width:991px)
+{
+    div.b1, div.b2, div.b3 
+    {
+        float: left;
+    }
+    div.b1{
+        width: 48%-40;
+    }
+    div.b2{
+        width: 48%-40; 
+    }
+    div.b3{
+        width: 98%-40; 
+    }
+}
+@media (max-width:767px)
+{
+
+    div.b1{
+        width: 98%-40;
+    }
+    div.b2{
+        width: 98%-40; 
+    }
+    div.b3{
+        width: 98%-40; 
+    }
+}
+
